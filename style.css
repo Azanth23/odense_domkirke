@@ -18,8 +18,8 @@
 .u_logo {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;   
+    padding-top: 15px;
+    padding-bottom: 15px;   
 }
 
 .blog1 {
@@ -41,3 +41,9 @@
    border: 1px solid grey;
     padding: 50px;
 }
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+
