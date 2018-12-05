@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+.kontakt_container {
+	height: 100%;
+	width: 100%;
+	background-color: #b57777;
+	margin: 5;
+	margin-top: -5%;
+}
