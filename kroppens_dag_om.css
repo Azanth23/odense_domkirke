@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* Kroppens Dag Om CSS */
+.tekst_boks {
+	height: 100%;
+	width: 100vw;
+	display: inline-block;
+	background: #8E1313;
+}
+.om_begivenheden {
+	margin: 5vw;
+}
+.om_begivenheden_bodytext {
+	margin: 5vw;
+}
+.skillelinje {
+	height: 2vw;
+	width: 90vw;
+	background-color: #727272;
+	margin-left: 5%;
+	margin-top: 8%;
+	border-radius: 10px;
+}
