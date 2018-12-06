@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  font-family:Raleway , Montserrat, sans-serif;
+}
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: grey;
+  height: 500px;
+  color:white;
+  border-radius: 0px;
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+}   
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color:#8e1313;
+  background-color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  text-align: center;
+}
+
+.topnav a.icon {
+  
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  
+}
+
+
+#accordian-wrapper {
+    color:white;
+    cursor: pointer;
+    width: 480px;
+    border: none;
+    text-align: left;
+    text-indent: 10px;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+
+.section {
+   width: 100vw;
+   height: 50px;
+   transition: height 200ms linear;
+
+}
+.section:hover {
+  height: 150px;
+
+
+}
+.c1 {background: #8e1313;}.c2 {background: #A61B24;}.c3 {background: #B1393E;}.c4 {background: #BC5356;}
+.c5 {background: #C76C6F;}
+
+.panel {
+    padding: 20px;
+    display: none;
+    width:200px;
+    overflow: hidden;
+    text-align:left;
+  }
