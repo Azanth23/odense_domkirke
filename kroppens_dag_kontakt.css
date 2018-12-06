@@ -2,8 +2,23 @@
 /* CSS Document */
 .kontakt_container {
 	height: 100%;
-	width: 100%;
-	background-color: #b57777;
-	margin: 5;
-	margin-top: -5%;
+	width: 100vw;
+	background-color: #C76C6F;
+	padding-top: 2%;
+}
+.overskrift {
+	margin: 5vw;
+}
+.broedtekst {
+	margin: 5vw;
+}
+.kontakt_navn {
+	margin: 5vw;
+	margin-top: 3vw;
+}
+.billede {
+	margin-left: 5vw;
+	margin-top: 1vw;
+	width: 50vw;
+	height: 41vw;
 }
