@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* Kroppens Dag base CSS */
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: montserrat regular;
+	margin: 0;
+	background-color: #000000;
+}
+p {
+	font-family: raleway;
+	color: #FFFFFF;
+	font-size: 3em;
+}
+h1 {
+	color: #FFFFFF;
+	font-family: montserrat regular;
+	font-size: 4em;
+}
+a:link {
+	color: white;
+}
+a:hover {
+	color: #373737;
+}
