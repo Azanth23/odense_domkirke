@@ -1,21 +1,21 @@
-.h1 {
-   font-family: 'Montserrat', sans-serif; 
-   
-   color: #ffffff;    
+h1 {
+	color: #FFFFFF;
+	font-family: 'montserrat';
+    
 }
 
 .h2 {
    font-family: 'Montserrat', sans-serif; 
-   
    color: #ffffff;    
 }
 
 
-/*Text carousel?*/
-.u_logo {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-     
+.forside_logo {
+    width: 6em;
+    height: 6em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 /*Billed carousel*/
@@ -70,7 +70,8 @@
 
 p {
     font-family: 'Raleway', sans-serif;
-    color: #ffffff;
+    color: #ffffff; 
+    
 }
 
 .active, .accordion:hover {
@@ -164,7 +165,7 @@ body {
 }
 	/* styling af de røde kasser og tekst-inhold i kasserne m.m */	
 .tidogsted {
-   background-color: #a61b24;
+   background-color: #C76C6F;
    color: white;
     padding: 10px;
 
@@ -200,7 +201,7 @@ img {
 	height: 100%;
 	width: 100vw;
 	display: inline-block;
-	background: #8E1313;
+	background: #C76C6F;
 }
 .om_begivenheden {
 	margin: 5vw;
@@ -217,10 +218,53 @@ img {
 	border-radius: 10px;
 }
 
-a:link {
-	color: white;
+/*Kontakt*/
+.kontakt_container {
+	height: 100%;
+	width: 100vw;
+	background-color: #C76C6F;
+	padding-top: 2%;
 }
-a:hover {
-	color: #373737;
+.overskrift {
+	margin: 5vw;
 }
+.broedtekst {
+	margin: 5vw;
+}
+.kontakt_navn {
+	margin: 5vw;
+	margin-top: 3vw;
+}
+.billede {
+	margin-left: 5vw;
+	margin-top: 1vw;
+	width: 50vw;
+	height: 41vw;
+}
+
+/*Sociale medier*/
+.so_me_link1 {
+	background: url("Billeder/fa_hvid.png") no-repeat;
+	background-size: 25vw;
+	height: 25vw;
+	width: 25vw;
+	margin-top: 5vw;
+	display: flex;
+}
+.so_me_link2 {
+	background: url("Billeder/instagram_hvid.png") no-repeat;
+	background-size: 25vw;
+	height: 25vw;
+	width: 25vw;
+	margin-top: 5vw; 
+	display: flex;
+}
+
+.social_container {
+        height: 100%;
+	    width: 100vw;
+    	background-color: #B57777;
+        padding-top: 2%;
+}
+
 
