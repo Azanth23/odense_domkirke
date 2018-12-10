@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media only screen and (max-width: 600px)
+
+table {
+  border-collapse: collapse;
+
+  
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  background-color:#D1B7B6;
+  text-align: left;
+
+}
+
+tr:nth-child(even) {
+  background-color:#D1B7B6;
+}
+
