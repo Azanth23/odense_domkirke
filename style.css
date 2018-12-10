@@ -113,9 +113,9 @@ body {
   top: 0;
   
 }
-.accordion-wrapper {
-    background-color:#eee;
-    color:grey;
+.accordion {
+    background-color:#8e1313;
+    color:white;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -132,16 +132,69 @@ body {
     overflow: hidden;
 }
 
-.section {
-   width: 100vw;
-   height: 100px;
-   transition: height 200ms linear;
+
+
+/*tid og sted*/
+
+		/* styling af billedet med kortet over stedet */
+		img {
+  max-width: 100%;
+  height: auto;
+}
+	/* styling af de røde kasser og tekst-inhold i kasserne m.m */	
+.tidogsted {
+   background-color: #a61b24;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+	padding-left: 50px;
+}
+			
+			
+/* styling af Vandret Skillestreg */
+}
+		
+		hr { 
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1 px solid grey;
+} 
+		
+/* styling af ubesøgt link til "kontakt arrangøren" */
+a:link {
+  color: black;
 }
 
-.section:hover {
-  height: 150px;    
+/* styling af besøgt link til "kontakt arrangøren" */
+a:visited {
+  color: grey;
 }
-
-
-.c1 {background: #8e1313;}.c2 {background: #A61B24;}.c3 {background: #B1393E;}.c4 {background: #BC5356;}
-.c5 {background: #C76C6F;}
+		
+		
+/* styling af rutevejlingsknappen */
+		
+		.button {
+  background-color: #ffffff;
+  font-family: montserrat; 
+  border-radius: 5px;
+  color: black;
+  padding: 9px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+		
+		
+/* styling af billedet med kortet over stedet */
+	
+img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); 
+}
