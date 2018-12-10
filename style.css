@@ -1,12 +1,15 @@
 .h1 {
    font-family: 'Montserrat', sans-serif; 
-   text-align: center;
-   color: #8E1313;    
+   
+   color: #ffffff;    
 }
 
-.u_logo {
-    font-family: 'Raleway', sans-serif;
+.h2 {
+   font-family: 'Montserrat', sans-serif; 
+   
+   color: #ffffff;    
 }
+
 
 /*Text carousel?*/
 .u_logo {
@@ -67,7 +70,23 @@
 
 p {
     font-family: 'Raleway', sans-serif;
-    color: #8E1313;
+    color: #ffffff;
+}
+
+.active, .accordion:hover {
+    background-color:black;
+}
+
+.accordion:after {
+    content: '\002B';
+    color:white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
 }
 
 @charset "UTF-8";
@@ -97,7 +116,6 @@ body {
 
 .topnav a {
   color:#8e1313;
-  background-color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -113,6 +131,8 @@ body {
   top: 0;
   
 }
+
+
 .accordion {
     background-color:#8e1313;
     color:white;
@@ -127,9 +147,10 @@ body {
 }
 
 .panel {
-    padding: 0 18px;
+   
     display: none;
     overflow: hidden;
+    color: white;
 }
 
 
@@ -144,57 +165,36 @@ body {
 	/* styling af de røde kasser og tekst-inhold i kasserne m.m */	
 .tidogsted {
    background-color: #a61b24;
-    color: white;
-    margin: 0px;
+   color: white;
     padding: 10px;
-	padding-left: 50px;
-}
-			
-			
-/* styling af Vandret Skillestreg */
-}
-		
-		hr { 
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1 px solid grey;
-} 
-		
-/* styling af ubesøgt link til "kontakt arrangøren" */
-a:link {
-  color: black;
-}
 
-/* styling af besøgt link til "kontakt arrangøren" */
-a:visited {
-  color: grey;
 }
+	
 		
+
+
+
 		
 /* styling af rutevejlingsknappen */
 		
-		.button {
+  .button {
   background-color: #ffffff;
   font-family: montserrat; 
   border-radius: 5px;
   color: black;
   padding: 9px 15px;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
 }
-		
+	
 		
 /* styling af billedet med kortet over stedet */
 	
 img {
-  opacity: 0.5;
+  
   filter: alpha(opacity=50); 
 }
