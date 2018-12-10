@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* Sociale Meder, Kroppens Dag, CSS Document */
+body {
+	background-color: #B57777;
+}
+.overskrift {
+	margin: 5vw;
+}
+.so_me_link1 {
+	background: url("styleguide/fa_hvid.png") no-repeat;
+	background-size: 25vw;
+	height: 25vw;
+	width: 25vw;
+	margin-left: 50vw;
+	margin-top: 5vw;
+	display: flex;
+}
+.so_me_link2 {
+	background: url("styleguide/instagram_hvid.png") no-repeat;
+	background-size: 25vw;
+	height: 25vw;
+	width: 25vw;
+	margin-left: 50vw;
+	margin-top: 5vw; 
+	display: flex;
+}
