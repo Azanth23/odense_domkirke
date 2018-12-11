@@ -69,7 +69,71 @@ Der er plads til 500 personer i kirken ad gangen.
 
 <button class="accordion">Program</button>
 <div class="panel">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<div class="program"> 
+<table>
+  <tr>
+    <td><img src="Billeder/inds%C3%A6tbillede.png" alt="billede" width="100" height="100"></td>
+    <td><br>Kl. 10.00<br> Åbning og velkomst v./Studenterpræst Kristine Hansen.</td>
+
+  </tr>
+  <tr>
+    <td><img src="Billeder/inds%C3%A6tbillede.png" alt="billede" width="100" height="100"></td>
+    <td><br>Kl.10.15<br> Foredrag/oplæg ved Søren Østergaard Center for Ungdomsforskning.</td>
+
+  </tr>
+  <tr>
+    <td><img src="Billeder/inds%C3%A6tbillede.png" alt="billede" width="100" height="100"></td>
+    <td><br>Kl.11.00<br> Debatpanelet med: Søren Østergaard, Sofie Warbjerg Hækkerup<br>Mikkel Salling Holmgaard fra Strongmind, en studerende og underviser fra UCL.</td>
+
+  </tr>
+  <tr>
+    <td><img src="Billeder/sang.png" alt="dans" width="100" height="100"></td>
+    <td><br>Kl.12.00<br> Bevægelse i kroppen dagens sang med Janne Wind.</td>
+   
+  </tr>
+  <tr>
+    <td><img src="Billeder/inds%C3%A6tbillede.png" alt="billede" width="100" height="100"></td>
+    <td><br>Kl.12.10<br> Smagsprøver ved studerende fra Kold Collage.</td>
+  </tr>
+   
+  <tr>
+    <td><img src="Billeder/sang.png" alt="sang" width="100" height="100"></td>
+    <td><br>Kl.12.30<br> Sang og undervisning om stemmen v. Janne Wind.</td>
+  </tr>
+   
+  <tr>
+    <td><img src="Billeder/inds%C3%A6tbillede.png" alt="billede" width="100" height="100"></td>
+    <td><br>Kl.13.00-14-30<br> Oplæg om kroppen om, kost, bevægelse, hvad sker der i kroppen.</td>
+  </tr>
+  
+  <tr>
+    <td><img src="Billeder/inds%C3%A6tbillede.png" alt="billede" width="100" height="100"></td>
+    <td><br>Kl.14.30<br> Pause og "besøg" i stationerne i kirkerummet<br>(stationer:Tanker til tørre,Filosofiske smuglere og andet godtfolk, Fotokunst, Chilli out i Krypten, Store tanker i små sko, Mad med glæde)<br></td>
+  </tr>
+   
+<tr>
+    <td><img src="Billeder/dans.png" alt="dans" width="100" height="100"></td>
+    <td><br>Kl.15.15<br> danseforstilling(Ved dansere fra Odense)</td>
+  </tr>
+
+
+<tr>
+    <td><img src="Billeder/sang.png" alt="sang" width="100" height="100"></td>
+    <td><br>Kl.16.00<br> Sangworkshop v./Janne Wind.</td>
+  </tr>
+
+  <tr>
+    <td><img src="Billeder/sang.png" alt="sang" width="100" height="100"></td>
+    <td><br>Kl.16.30-17.00<br> Glædes koncert med de sange vi har lært på 30 min.</td>
+  </tr>
+
+  <tr>
+    <td><img src="Billeder/inds%C3%A6tbillede.png" alt="billede" width="100" height="100"></td>
+    <td><br>Kl.17.00<br> Afslutning og Tak for timer sammen.</td>
+  </tr>
+
+</table>
+</div>
 </div>
 
 <button class="accordion">Sociale medier</button>
@@ -92,7 +156,7 @@ Der er plads til 500 personer i kirken ad gangen.
 		<p class="broedtekst">Studenterpræst på UCL<br><br>
 		UCL, Niels Bohrs Allé 1, 5230 Odense M<br><br>
 		Telefon: 51 44 04 07<br>
-			<adresse>E-Mail: <a href="mailto:kra@km.dk" cursor="pointer">kra@km.dk</a></adresse>
+			<adresse>E-Mail: <a href="mailto:kra@km.dk" cursor="pointer" style="font-size: 15px">kra@km.dk</a></adresse>
 		</p>
 </div>
 </div>
@@ -123,7 +187,16 @@ for (i = 0; i < acc.length; i++) {
   </a>
 </div>
 
-<img class="forside_logo" src="Billeder/u_logo2.png" alt="logo">
+<div class="row">
+  <div class="column">        
+      <img class="forside_logo" src="Billeder/u_logo2.png" alt="logo"></div>
+    <div class="column">
+        <h2>normal</h2>
+        </div>
+<div class="column">
+<img class="forside_sp" src="Billeder/sprgstegn.png" alt="spørgsmålstegn">  
+      </div>
+        </div>
         
  
 
@@ -175,16 +248,6 @@ function myFunction() {
   
 </div>    
 </div>
-
-<br>
-        
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>    
-</div>
         
 <script>
 var slideIndex = 0;
@@ -197,18 +260,16 @@ The loop will continue to run as long as the condition is true. It will only sto
 function showSlides() {
     var i;
     var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
+    
     for (i = 0; i < slides.length; i++) {
        slides[i].style.display = "none";  
     }
     slideIndex++;
     if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
+    
     slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 6500); // Change image every 6.5 seconds
+    
+    setTimeout(showSlides, 3000); // Change image every 6.5 seconds
 }
 </script>
         

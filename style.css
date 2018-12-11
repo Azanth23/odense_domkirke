@@ -1,7 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+
 h1 {
 	color: #FFFFFF;
 	font-family: 'montserrat';
-    
+    font-size: 1em; 
 }
 
 .h2 {
@@ -11,11 +14,29 @@ h1 {
 
 
 .forside_logo {
-    width: 6em;
-    height: 6em;
+    width: 5em;
+    height: 5em;
     display: block;
-    margin-left: auto;
-    margin-right: auto; 
+    padding-left: 2em;
+}
+
+.forside_sp {
+    width: 5em;
+    height: 5em;
+    display: block;
+    padding-right: 2em;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /*Billed carousel*/
@@ -29,17 +50,7 @@ h1 {
   position: relative;
   margin: auto;  
 }
-    
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
+
 
 
 /* Fading animation */
@@ -61,8 +72,8 @@ h1 {
 }
 
 .carousel_img {
-    width: 50%; 
-    height: 50%;
+    width: 90%; 
+    height: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto
@@ -74,7 +85,7 @@ p {
     
 }
 
-.active, .accordion:hover {
+.accordion:hover {
     background-color:black;
 }
 
@@ -90,8 +101,7 @@ p {
     content: "\2212";
 }
 
-@charset "UTF-8";
-/* CSS Document */
+
 
 body {
   font-family:Raleway , Montserrat, sans-serif;
@@ -117,22 +127,22 @@ body {
 
 .topnav a {
   color:#8e1313;
-  padding: 14px 16px;
+  padding-left: 1em;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 2em;
   display: block;
-  text-align: center;
+  text-align: left;
 }
 
 .topnav a.icon {
-  
+  padding-right: 1em;
   display: block;
   position: absolute;
   right: 0;
-  top: 0;
+  top: 0; 
+  margin-top: 25px;     
   
 }
-
 
 .accordion {
     background-color:#8e1313;
@@ -267,4 +277,24 @@ img {
         padding-top: 2%;
 }
 
+/*Program*/
+table {
+  border-collapse: collapse;
 
+  
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  background-color:#B57777;
+  text-align: left;
+
+}
+
+tr:nth-child(even) {
+  background-color:#B57777;
+}
+
+.program {
+    background-color: #B57777;
+}
