@@ -1,0 +1,270 @@
+@charset "utf-8";
+/*Kroppens Dag Styleguide CSS Document */
+body {
+	font-family: raleway regular;
+	background-color: #8e1313;
+	color: white;
+}
+.styletile {
+	height: 50vw;
+	width: 60vw;
+}
+.farve_wrapper {
+	display: inline-flex;
+}
+#roed1 {
+	background-color: #8e1313;
+	border-style: solid;
+	height: 200px;
+	width: 200px;
+}
+#roed2 {
+	background-color: #962727;
+	border: #212121, 4vw;
+	border-style: solid;
+	height: 200px;
+	width: 200px;
+}
+#roed3 {
+	background-color: #9e3b3b;
+	border: #212121, 4vw;
+	border-style: solid;
+	height: 200px;
+	width: 200px;
+}
+#roed4 {
+	background-color: #a54f4f;
+	border: #212121, 4vw;
+	border-style: solid;
+	height: 200px;
+	width: 200px;
+}
+#roed5 {
+	background-color: #ad6363;
+	border: #212121, 4vw;
+	border-style: solid;
+	height: 200px;
+	width: 200px;
+}
+#hvid {
+	background-color: #FFFFFF;
+	border: #212121, 4vw solid;
+	border-style: solid;
+	height: 200px;
+	width: 200px;
+	color: #000000;
+	border-color: white;
+}
+#sort {
+	background-color: #000000;
+	border: #212121, 4vw solid;
+	border-style: solid;
+	height: 200px;
+	width: 200px;
+}
+.button {
+  	background-color: #ffffff;
+  	font-family: montserrat regular; 
+  	border-radius: 5px;
+  	color: black;
+  	padding: 9px 15px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+}
+.button:link {
+	color: #000000;
+}
+.button:hover {
+	background-color: black;
+	color: white;
+}
+#fb:link {
+	color: white;
+	text-decoration-color: white;
+}
+#fb:visited {
+	color: white;
+	text-decoration-color: white;
+}
+#fb:hover {
+	color: black;
+	text-decoration-color: black;
+}
+a:link {
+	text-decoration-color: #FFFFFF;
+	color: #FFFFFF;
+}
+a:hover {
+	color: #000000;
+	text-decoration-color: #000000;
+}
+a:visited {
+	color: #000000;
+	text-decoration-color: #FFFFFF;
+}
+.ikon {
+	width: 15vw;
+	height: 15vw;
+}
+img {
+	margin: 3vw;
+}
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  height: 500px;
+  border-radius: 0px;
+  color: white;     
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+}   
+
+.topnav #myLinks {
+  display: none;     
+}
+
+.topnav a {
+  color:#8e1313;
+  padding: 14px 16px;
+  background: white;
+  text-decoration: none;
+  font-size: 2em;
+  display: block;
+  text-align: center;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+ 
+}
+.accordion:hover {
+	background-color:black;
+}
+
+.accordion:after {
+	content: '\002B';
+	color:white;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: "\2212";
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  height: 500px;
+  border-radius: 0px;
+  color: white;	 
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+}   
+
+.topnav #myLinks {
+  display: none;	 
+}
+
+.topnav a {
+  color:#8e1313;
+  padding: 14px 4px 20px px;
+  text-decoration: none;
+  font-size: 2em;
+  display: block;
+  text-align: left;
+}
+
+.topnav a.icon {
+ 
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 20px;	 
+ 
+}
+
+
+.accordion {
+	background-color:#8e1313;
+	color:white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+}
+
+.panel {
+   
+	display: none;
+	overflow: hidden;
+	color: white;
+}
+
+/*Billed carousel*/
+
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;  
+}
+    
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.carousel_img {
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
