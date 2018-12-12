@@ -16,21 +16,28 @@ h1 {
 .forside_logo {
     width: 5em;
     height: 5em;
-    display: block;
-    padding-left: 3em;
     
+    
+}
+
+.logo_gruppe {
+    display: block;
+    margin: auto;
+    margin: auto; 
+    margin-left: 55px;
+    
+        
 }
 
 .forside_sp {
     width: 5em;
     height: 5em;
-    display: block;
-    padding-right: 2em;
+    
 }
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 20 %;
 }
 
 /* Clearfix (clear floats) */
