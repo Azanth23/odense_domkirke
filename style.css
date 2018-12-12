@@ -17,7 +17,8 @@ h1 {
     width: 5em;
     height: 5em;
     display: block;
-    padding-left: 2em;
+    padding-left: 3em;
+    
 }
 
 .forside_sp {
@@ -81,8 +82,7 @@ h1 {
 
 p {
     font-family: 'Raleway', sans-serif;
-    color: #ffffff; 
-    
+    color: #ffffff;    
 }
 
 .accordion:hover {
@@ -100,8 +100,6 @@ p {
 .active:after {
     content: "\2212";
 }
-
-
 
 body {
   font-family:Raleway , Montserrat, sans-serif;
@@ -141,7 +139,6 @@ body {
   right: 0;
   top: 0; 
   margin-top: 25px;     
-  
 }
 
 .accordion {
@@ -164,27 +161,22 @@ body {
     color: white;
 }
 
-
-
 /*tid og sted*/
 
-		/* styling af billedet med kortet over stedet */
-		img {
+/* styling af billedet med kortet over stedet */
+img {
   max-width: 100%;
   height: auto;
 }
-	/* styling af de røde kasser og tekst-inhold i kasserne m.m */	
+/* styling af de røde kasser og tekst-inhold i kasserne m.m */	
 .tidogsted {
    background-color: #C76C6F;
    color: white;
     padding: 10px;
-
 }
-	
 		
 /* styling af rutevejlingsknappen */
-		
-  .button {
+.button {
   background-color: #ffffff;
   font-family: montserrat; 
   border-radius: 5px;
@@ -202,7 +194,6 @@ body {
 /* styling af billedet med kortet over stedet */
 	
 img {
-  
   filter: alpha(opacity=50); 
 }
 
@@ -213,12 +204,15 @@ img {
 	display: inline-block;
 	background: #C76C6F;
 }
+
 .om_begivenheden {
 	margin: 5vw;
 }
+
 .om_begivenheden_bodytext {
 	margin: 5vw;
 }
+
 .skillelinje {
 	height: 2vw;
 	width: 90vw;
@@ -235,16 +229,20 @@ img {
 	background-color: #C76C6F;
 	padding-top: 2%;
 }
+
 .overskrift {
 	margin: 5vw;
 }
+
 .broedtekst {
 	margin: 5vw;
 }
+
 .kontakt_navn {
 	margin: 5vw;
 	margin-top: 3vw;
 }
+
 .billede {
 	margin-left: 5vw;
 	margin-top: 1vw;
@@ -261,6 +259,7 @@ img {
 	margin-top: 5vw;
 	display: flex;
 }
+
 .so_me_link2 {
 	background: url("Billeder/instagram_hvid.png") no-repeat;
 	background-size: 25vw;
@@ -280,15 +279,12 @@ img {
 /*Program*/
 table {
   border-collapse: collapse;
-
-  
 }
 
 td, th {
   border: 1px solid #dddddd;
   background-color:#B57777;
   text-align: left;
-
 }
 
 tr:nth-child(even) {
